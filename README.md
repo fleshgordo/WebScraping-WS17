@@ -69,6 +69,28 @@ sudo pip install bs4
 sudo pip install googlemaps
 sudo pip install markovify
 ```
+### Installation Windows
+
+### Windows
+
+Download miniconda 2.7 Version hier: https://conda.io/miniconda.html
+
+Danach kann man in Windows das Programm **anaconda Prompt** öffnen.
+
+Folgende Befehle muss man ausfuehren (Zeile für Zeile und mit Enter bestätigen)
+
+```
+conda create -y -n blockwoche python=2.7
+conda install -y -n blockwoche jupyter
+conda install -y -n blockwoche ipython
+conda install -y -n blockwoche -c conda-forge markovify
+conda install -y -n blockwoche -c conda-forge tweepy
+conda install -y -n blockwoche -c conda-forge selenium
+conda install -y -n blockwoche beautifulsoup4
+conda install -y -n blockwoche -c conda-forge googlemaps
+activate blockwoche
+jupyter-notebook
+```
 
 ### Selenium IDE
 
