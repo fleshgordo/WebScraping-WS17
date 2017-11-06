@@ -6,7 +6,7 @@ Interactives Python notebook mit Basic Python crash course für Anfänger und Fo
 
 ### Installation Mac
 
-Zunächst bitte Anaconda installieren. Hier der Download Link
+Zunächst bitte Anaconda installieren. Hier der Download [Link](https://conda.io/miniconda.html) 
 
 Danach installiere wir noch einige zusätzliche Python Pakete. Das Skript install_anaconda.sh auf den Desktop herunterladen. Danach Terminal öffnen und folgendes eintippen:
 

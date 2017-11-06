@@ -5,15 +5,15 @@ else
   NAME=$1
 fi
 
-FILE="Miniconda2-latest-MacOSX-x86_64.sh "
-if [ -f $FILE ]; then
-   echo "Miniconda File Miniconda2-latest-MacOSX-x86_64.sh liegt im Ordner. Alles gut"
-   sh $FILE
-else
-   echo "Miniconda File Miniconda2-latest-MacOSX-x86_64.sh liegt nicht im Ordner."
-   echo "Bitte in diesen Folder kopieren:"; pwd
-   exit
-fi
+# FILE="Miniconda2-latest-MacOSX-x86_64.sh "
+# if [ -f $FILE ]; then
+#    echo "Miniconda File Miniconda2-latest-MacOSX-x86_64.sh liegt im Ordner. Alles gut"
+#    sh $FILE
+# else
+#    echo "Miniconda File Miniconda2-latest-MacOSX-x86_64.sh liegt nicht im Ordner."
+#    echo "Bitte in diesen Folder kopieren:"; pwd
+#    exit
+# fi
 # remove anaconda environment
 conda remove -y --name $NAME --all
 
